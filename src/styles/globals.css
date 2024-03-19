@@ -13,17 +13,21 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --pink: 255, 161, 175;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  color: rgb(var(--pink));
+  /* background: linear-gradient(
       to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      /* transparent, */
+      /* rgb(var(--pink)) */
+    /* ) */
+    /* rgb(var(--pink)); */ 
+    /* background: rgb(--pink); */
+    background: #ffa1af
+    ;
 }
 
 @layer utilities {
