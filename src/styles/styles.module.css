@@ -6,6 +6,7 @@
 }
 
 .button {
+  width: 300px;
   border: 1px solid #ccc;
   background: #f1e767;
   background: -webkit-gradient(
@@ -22,6 +23,7 @@
   margin: 20px;
   box-shadow: inset 1px 1px 1px #fff;
   border-radius: 100px;
+  text-align: center;
 }
 
 .button:hover {
@@ -34,4 +36,8 @@
   );
   background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #ebedee 100%);
   background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+}
+
+.input {
+  display: none;
 }

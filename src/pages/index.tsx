@@ -47,10 +47,12 @@ export default function Home() {
     <>
       <Header />
       <div className={styles.container}>
-        <input type="file" onChange={OnFileUploadToFirebase} accept="image/*" multiple />
-        <button className={styles.button}>画像をアップロード</button>
-        <input type="file" onChange={OnMovieUploadToFirebase} />
-        <button className={styles.button}>メッセージ動画をアップロード</button>
+        <label className={styles.button}>画像を選択
+          <input className={styles.input} type="file" onChange={OnFileUploadToFirebase} accept="image/*" multiple />
+        </label>
+        <label className={styles.button}>メッセージ動画をアップロード
+          <input className={styles.input} type="file" onChange={OnMovieUploadToFirebase} />
+        </label>
       </div>
     </>
   );
